@@ -3,8 +3,7 @@ Python Software for Modern Portfolio Theory
 
 PyMPT is a free software package for portfolio optimization and analysis based on the Python programming language.
 
-The project is hosted at github:
-http://alpgodev.github.com/pympt
+The project is hosted at github: http://...
 
 Portfolio optimization is a problem faced by anyone trying to invest money (or any kind of capital) in a group of investments (i.e. stock market). Typically, such investment have two competing goals:
 
@@ -13,7 +12,7 @@ Portfolio optimization is a problem faced by anyone trying to invest money (or a
 
 Maximizing return means selecting a group of investments that collectively result in the highest expected yield. Minimizing risk means selecting investments that are most likely to actually result in the yields we expect.
 
-Implemented algorithms (portfolio optimization):
+Implemented algorithms for portfolio optimization:
 
 - Higher order moments optimization
 - Tail risk optimization
@@ -45,18 +44,12 @@ Implemented Risk Analytics:
 There are several options for installation:
 
   * From scratch:
-
-      * pip install pympt
-
   * From a fresh git checkout:
-
-      * python setup.py develop
-
-      * python setup.py install
 
 ## Dependencies
 
-pip install cvxopt
 pip install numpy
 pip install scipy
 pip install pandas
+pip install cvxopt
+pip install cvxpy
